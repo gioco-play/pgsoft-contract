@@ -1,1 +1,1 @@
-# bole-card interface
+# PgSoft interface
