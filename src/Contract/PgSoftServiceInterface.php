@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace GiocoPlus\BoleCard\Contract;
+namespace GiocoPlus\PgSoft\Contract;
 /**
  * 交易
  */
