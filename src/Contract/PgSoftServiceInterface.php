@@ -8,13 +8,16 @@ interface PgSoftServiceInterface {
 
     /**
      * 遊戲啟動
+     *
      * @param string $op_code
      * @param string $account
      * @param string $game_code
-     * @return mixed
+     * @param string $language
+     * @param string $currency
+     * @return void
      */
-    function gameLaunch(string $op_code, string $account, string $game_code);
-
+    function gameLaunch(string $op_code, string $account, string $game_code, string $language, string $currency);
+    
     /**
      * 遊戲詳情
      * @param string $op_code
