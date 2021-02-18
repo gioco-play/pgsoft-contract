@@ -13,9 +13,10 @@ interface PgSoftServiceInterface {
      * @param string $account
      * @param string $game_code
      * @param string $language
+     * @param string $back_url
      * @return mixed
      */
-    function gameLaunch(string $op_code, string $account, string $game_code, string $language);
+    function gameLaunch(string $op_code, string $account, string $game_code, string $language, string $back_url = '');
     
     /**
      * 遊戲詳情
